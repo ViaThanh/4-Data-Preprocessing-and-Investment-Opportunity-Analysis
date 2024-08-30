@@ -18,7 +18,7 @@ Nguồn: Dự án này sử dụng bộ dữ liệu Investment Analysis, đượ
 - round2.csv: thông tin về các vòng gọi vốn đầu tư
 
 **Yêu cầu :**
-- Tải dữ liệu, điều chỉnh định dạng file và nạp dữ liệu vào chương trình 	
+- Tải dữ liệu và nạp dữ liệu vào chương trình 	
 - Thống kê dữ liệu 		
 - Thực hiện tiền xử lý dữ liệu: làm sạch, điền dữ liệu bị thiếu, gộp các tập dữ liệu và chỉnh sửa sai lệch dữ liệu,...		
 - Phân tích loại hình đầu tư: so sánh số tiền đầu tư điển hình trong liên doanh, vòng seed, angel, private equity,... 
