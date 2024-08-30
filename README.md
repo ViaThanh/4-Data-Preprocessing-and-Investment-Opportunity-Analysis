@@ -23,7 +23,8 @@ Nguồn: Dự án này sử dụng bộ dữ liệu Investment Analysis, đượ
 - Thực hiện tiền xử lý dữ liệu: làm sạch, điền dữ liệu bị thiếu,… 		
 - Phân tích loại hình đầu tư: so sánh số tiền đầu tư điển hình trong liên doanh, vòng seed, angel, private equity,... 	
 - Phân tích theo quốc gia: xác định các quốc gia được đầu tư nhiều nhất trong quá khứ. 
-- Phân tích ngành: sự phân bổ đầu tư trên tám lĩnh vực chính (file mapping.csv) 
+- Phân tích ngành: sự phân bổ đầu tư trên tám lĩnh vực chính (file mapping.csv)
+  
 *Lưu ý: 'lĩnh vực chính' được lưu trong mapping.csv. Còn companies.txt và round2.csv đang có nhiều lĩnh vực phụ, do đó cần map lĩnh vực phụ vào lĩnh vực chính.*
 
 **Về project :**
