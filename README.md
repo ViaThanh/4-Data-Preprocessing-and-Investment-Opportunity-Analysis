@@ -5,25 +5,25 @@
 ### Xây dựng mô hình phân tích cơ hội đầu tư (Investment Opportunity Analysis - EDA)
 
 **Mục tiêu :**
--Phân tích dữ liệu để lựa chọn quốc gia, lĩnh vực và loại hình đầu tư phù hợp
--Chiến lược: đầu tư và những nơi mà nhiều người khác đang đầu tư
+- Phân tích dữ liệu để lựa chọn quốc gia, lĩnh vực và loại hình đầu tư phù hợp
+- Chiến lược: đầu tư và những nơi mà nhiều người khác đang đầu tư
 
 **Dữ liệu :**
 Nguồn: Dự án này sử dụng bộ dữ liệu Investment Analysis, được lấy từ Kaggle. Tập dữ liệu ban đầu được [ASHISH] cung cấp và có sẵn trên Kaggle. [https://www.kaggle.com/datasets/ashydv/investment-analysis/data]. 
 
 **Mô tả :**
--Dữ liệu gồm 03 files: rounds2.csv, mapping.csv và companies.txt
--companies.csv chứa thông tin về các công ty: homepage, category_list, country,…
--mapping.csv: map các lĩnh vực kinh doanh
--round2.csv: thông tin về các vòng gọi vốn đầu tư
+- Dữ liệu gồm 03 files: rounds2.csv, mapping.csv và companies.txt
+- companies.csv chứa thông tin về các công ty: homepage, category_list, country,…
+- mapping.csv: map các lĩnh vực kinh doanh
+- round2.csv: thông tin về các vòng gọi vốn đầu tư
 
 **Yêu cầu :**
--Tải dữ liệu và nạp dữ liệu vào chương trình 	
--Thống kê dữ liệu 		
--Thực hiện tiền xử lý dữ liệu: làm sạch, điền dữ liệu bị thiếu,… 		
--Phân tích loại hình đầu tư: so sánh số tiền đầu tư điển hình trong liên doanh, vòng seed, angel, private equity,... 	
--Phân tích theo quốc gia: xác định các quốc gia được đầu tư nhiều nhất trong quá khứ. 
--Phân tích ngành: sự phân bổ đầu tư trên tám lĩnh vực chính (file mapping.csv) 
+- Tải dữ liệu và nạp dữ liệu vào chương trình 	
+- Thống kê dữ liệu 		
+- Thực hiện tiền xử lý dữ liệu: làm sạch, điền dữ liệu bị thiếu,… 		
+- Phân tích loại hình đầu tư: so sánh số tiền đầu tư điển hình trong liên doanh, vòng seed, angel, private equity,... 	
+- Phân tích theo quốc gia: xác định các quốc gia được đầu tư nhiều nhất trong quá khứ. 
+- Phân tích ngành: sự phân bổ đầu tư trên tám lĩnh vực chính (file mapping.csv) 
 *Lưu ý: 'lĩnh vực chính' được lưu trong mapping.csv. Còn companies.txt và round2.csv đang có nhiều lĩnh vực phụ, do đó cần map lĩnh vực phụ vào lĩnh vực chính.*
 
 **Về project :**
