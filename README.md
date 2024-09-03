@@ -46,4 +46,4 @@ Trong dự án này, ta đã thực hiện một cuộc nghiên cứu về việ
   
 **Trực quan :**
 Dự án này bao gồm báo cáo được tạo bằng Power BI để cung cấp hình ảnh trực quan mang tính tương tác và sâu sắc. Nó có nhiều biểu đồ và đồ thị khác nhau để hiển thị xu hướng và mẫu trong dữ liệu, giúp người dùng dễ dàng hiểu và khám phá mối quan hệ giữa các biến trong tập dữ liệu.
-![Report](relative/path/to/your/image.png)
+![Report](Ảnh chụp màn hình 2024-09-03 232145.png)
