@@ -1,49 +1,49 @@
 ## Project_Investment-Opportunity-Analysis-EDA-_Vietnamese
 
-### Project dựa trên đồ án cuối kỳ môn Phân tích dữ liệu cho tài chính
-### Đề tài 4
-### Xây dựng mô hình phân tích cơ hội đầu tư (Investment Opportunity Analysis - EDA)
+### Project based on the final course project in Data Analysis for Finance
+### Topic 4
+### Building an Investment Opportunity Analysis Model (Investment Opportunity Analysis - EDA)
 
-#### Mục tiêu :
-- Phân tích dữ liệu để lựa chọn quốc gia, lĩnh vực và loại hình đầu tư phù hợp
-- Chiến lược: đầu tư và những nơi mà nhiều người khác đang đầu tư
+#### Objective:
+- Analyze data to select the appropriate country, sector, and type of investment
+- Strategy: invest where others are also investing
 
-#### Dữ liệu :
-Nguồn: Dự án này sử dụng bộ dữ liệu Investment Analysis, được lấy từ Kaggle. Tập dữ liệu ban đầu được [ASHISH] cung cấp và có sẵn trên Kaggle. [https://www.kaggle.com/datasets/ashydv/investment-analysis/data]. 
+#### Data:
+Source: This project uses the Investment Analysis dataset, sourced from Kaggle. The original dataset was provided by [ASHISH] and is available on Kaggle. [https://www.kaggle.com/datasets/ashydv/investment-analysis/data].
 
-- Dữ liệu gồm 03 files: rounds2.csv, mapping.csv và companies.txt
-- companies.txt chứa thông tin về các công ty: homepage, category_list, country,…
-- mapping.csv: map các lĩnh vực kinh doanh
-- round2.csv: thông tin về các vòng gọi vốn đầu tư
+- The data consists of 03 files: rounds2.csv, mapping.csv, and companies.txt
+- companies.txt contains information about companies: homepage, category_list, country, etc.
+- mapping.csv: maps business sectors
+- round2.csv: contains information about investment rounds
 
-#### Yêu cầu :
-- Tải dữ liệu và nạp dữ liệu vào chương trình 	
-- Thống kê dữ liệu như max, min, mean,...
-- Thực hiện tiền xử lý dữ liệu: làm sạch, điền dữ liệu bị thiếu, gộp các tập dữ liệu và chỉnh sửa sai lệch dữ liệu,...		
-- Phân tích loại hình đầu tư: so sánh số tiền đầu tư điển hình trong liên doanh, vòng seed, angel, private equity,... 
-- Phân tích theo quốc gia: xác định các quốc gia được đầu tư nhiều nhất trong quá khứ. 
-- Phân tích ngành: sự phân bổ đầu tư trên tám lĩnh vực chính (file mapping.csv)
-  
-*Lưu ý: 'lĩnh vực chính' được lưu trong mapping.csv. Còn companies.txt và round2.csv đang có nhiều lĩnh vực phụ, do đó file mapping đã được gộp vào để nhập lĩnh vực phụ vào lĩnh vực chính.*
+#### Requirements:
+- Download and load the data into the program
+- Perform data statistics such as max, min, mean, etc.
+- Carry out data preprocessing: cleaning, filling in missing data, merging datasets, and correcting data discrepancies, etc.
+- Analyze the type of investment: compare typical investment amounts in venture, seed, angel, private equity rounds, etc.
+- Analyze by country: identify the countries that have received the most investments in the past.
+- Analyze by sector: analyze the investment distribution across eight main sectors (mapping.csv file).
 
-**Công cụ :**
-Jupyter Notebook để xử lý dữ liệu
-Power BI để tạo báo cáo trực quan
+*Note: The 'main sectors' are stored in mapping.csv. However, companies.txt and round2.csv contain many sub-sectors, so the mapping file was merged to integrate sub-sectors into main sectors.*
 
-#### Về project :
-- Ý tưởng về xử lý dữ liệu và phân tích được lấy từ các bài phân tích cơ hội đầu tư dựa trên tập dữ liệu có từ Kaggle . [Link1](https://www.kaggle.com/code/absheer/investment-data-cleaning-and-understanding) , [Link2](https://www.kaggle.com/code/anuranchowdhury/spark-fund-investment-analysis-eda) , [Link3](https://www.kaggle.com/code/kerneler/starter-investment-analysis-69cfb24d-6) , [Link4](https://www.kaggle.com/code/ashydv/investment-opportunity-analysis-eda)
-  
-**Kết luận :**
-Trong dự án này, ta đã thực hiện một cuộc nghiên cứu về việc sử dụng Phân Tích Dữ Liệu Khám Phá (EDA) để phân tích mô hình cơ hội đầu tư trên các lĩnh vực khác nhau. Qua các bước phân tích tỉ mỉ và sử dụng các kỹ thuật EDA, chúng ta đã có cái nhìn tổng quan và sâu sắc hơn về cấu trúc và đặc điểm của thị trường, từ đó xác định
-+ Loại hình đầu tư: Loại hình đầu tư phù hợp nhất được xác định qua phân tích là Venture Capital (Vốn mạo hiểm). Loại hình đầu tư này đã cho thấy tiềm năng lớn về lợi nhuận và là lựa chọn ưu tiên trong hầu hết các vòng gọi vốn.
-+ Phân tích quốc gia: Hoa Kỳ nổi lên là quốc gia hàng đầu cho các hoạt động đầu tư, với số lượng vòng gọi vốn và tổng số tiền đầu tư cao nhất. Điều này cho thấy thị trường Hoa Kỳ đang hoạt động rất sôi nổi và là nơi lý tưởng cho các khoản đầu tư mạo hiểm.
-+ Phân tích lĩnh vực: Các lĩnh vực có hoạt động đầu tư mạnh nhất bao gồm 'Others', 'Cleantech/Semiconductors' (Công nghệ sạch/Chất bán dẫn), và 'Social, Finance, Analytics and Advertising' (Xã hội, Tài chính, Phân tích và Quảng cáo). Đây là những lĩnh vực đang thu hút sự chú ý lớn từ các nhà đầu tư, làm cho chúng trở thành mục tiêu đầu tư tiềm năng.
+**Tools:**
+Jupyter Notebook for data processing
+Power BI for creating visual reports
 
-**Dựa trên những phát hiện từ phân tích, các đề xuất về hành động được đưa ra:**
-+ Tập trung vào Đầu tư mạo hiểm (Venture Capital): Với hiệu suất cao và sự phổ biến của các khoản đầu tư mạo hiểm, nên ưu tiên loại hình đầu tư này để tối đa hóa lợi nhuận.
-+ Nhắm vào thị trường Hoa Kỳ: Với Hoa Kỳ thể hiện hoạt động đầu tư mạnh mẽ nhất, nên tập trung nỗ lực đầu tư vào thị trường này, đặc biệt là trong những ngành đã chứng tỏ sự tăng trưởng mạnh mẽ.
-+ Đầu tư vào các lĩnh vực tăng trưởng cao: Nên mở rộng đầu tư vào các lĩnh vực như 'Cleantech/Semiconductors' và 'Social, Finance, Analytics and Advertising'. Đây là những lĩnh vực đã cho thấy tiềm năng lớn và có khả năng mang lại cơ hội sinh lời cao trong tương lai.
-  
-**Trực quan :**
-Dự án này bao gồm báo cáo được tạo bằng Power BI để cung cấp hình ảnh trực quan mang tính tương tác và sâu sắc. Nó có nhiều biểu đồ và đồ thị khác nhau để hiển thị xu hướng và mẫu trong dữ liệu, giúp người dùng dễ dàng hiểu và khám phá mối quan hệ giữa các biến trong tập dữ liệu.
+#### About the project:
+- The idea for data processing and analysis is inspired by investment opportunity analysis based on available datasets from Kaggle. [Link1](https://www.kaggle.com/code/absheer/investment-data-cleaning-and-understanding), [Link2](https://www.kaggle.com/code/anuranchowdhury/spark-fund-investment-analysis-eda), [Link3](https://www.kaggle.com/code/kerneler/starter-investment-analysis-69cfb24d-6), [Link4](https://www.kaggle.com/code/ashydv/investment-opportunity-analysis-eda)
+
+**Conclusion:**
+In this project, we conducted a study using Exploratory Data Analysis (EDA) to analyze the investment opportunity model across different sectors. Through meticulous analysis and the application of EDA techniques, we gained a comprehensive and in-depth understanding of the market structure and characteristics, thus identifying:
++ Type of Investment: The most suitable investment type identified through the analysis is Venture. This investment type has shown significant potential for returns and is the preferred choice in most funding rounds.
++ Country Analysis: The United States emerges as the leading country for investment activities, with the highest number of funding rounds and total investment amounts. This indicates that the U.S. market is highly active and is an ideal place for venture capital investments.
++ Sector Analysis: The sectors with the most significant investment activities include 'Others,' 'Cleantech/Semiconductors,' and 'Social, Finance, Analytics, and Advertising.' These sectors are attracting considerable attention from investors, making them potential investment targets.
+
+**Based on the findings from the analysis, the following action recommendations are made:**
++ Focus on Venture Investments: Given the high performance and popularity of venture capital investments, this investment type should be prioritized to maximize returns.
++ Target the U.S. Market: With the U.S. showing the strongest investment activity, investment efforts should be concentrated in this market, especially in sectors that have demonstrated strong growth.
++ Invest in High-Growth Sectors: Investments should be expanded into sectors like 'Cleantech/Semiconductors' and 'Social, Finance, Analytics, and Advertising.' These sectors have shown great potential and could provide high returns in the future.
+
+#### Visualization:
+This project includes a report created with Power BI to provide interactive and insightful visualizations. It features various charts and graphs to display trends and patterns in the data, helping users easily understand and explore relationships between variables in the dataset.
 ![Report](https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/537ba9207d4dc10d61cbccac22f6a3e9ad2ea92a/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202024-09-03%20232145.png)
