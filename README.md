@@ -46,4 +46,4 @@ In this project, we conducted a study using Exploratory Data Analysis (EDA) to a
 
 #### Visualization:
 This project includes a report created with Power BI to provide interactive and insightful visualizations. It features various charts and graphs to display trends and patterns in the data, helping users easily understand and explore relationships between variables in the dataset.
-![Report](https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/537ba9207d4dc10d61cbccac22f6a3e9ad2ea92a/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202024-09-03%20232145.png)
+![Report](https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/52ab957a1a861f6af67a521d6b4368a0918094bd/IOA_EDA.png)
