@@ -1,4 +1,4 @@
-## Project_Investment-Opportunity-Analysis-EDA-_Vietnamese
+## Project_Investment_Opportunity_Analysis_EDA_Vietnamese
 
 ### Project based on the final course project in Data Analysis for Finance
 ### Topic 4
