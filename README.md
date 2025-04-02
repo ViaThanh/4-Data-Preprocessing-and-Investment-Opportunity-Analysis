@@ -1,7 +1,7 @@
 ## Project_Investment_Opportunity_Analysis_EDA_Vietnamese
 
 ### Project based on the final course project in Data Analysis for Finance
-### Topic 4
+
 ### Building an Investment Opportunity Analysis Model (Investment Opportunity Analysis - EDA)
 
 #### Objective:
@@ -31,7 +31,6 @@ Jupyter Notebook for data processing
 Power BI for creating visual reports
 
 #### About the project:
-- The idea for data processing and analysis is inspired by investment opportunity analysis based on available datasets from Kaggle. [Link1](https://www.kaggle.com/code/absheer/investment-data-cleaning-and-understanding), [Link2](https://www.kaggle.com/code/anuranchowdhury/spark-fund-investment-analysis-eda), [Link3](https://www.kaggle.com/code/kerneler/starter-investment-analysis-69cfb24d-6), [Link4](https://www.kaggle.com/code/ashydv/investment-opportunity-analysis-eda)
 
 **Conclusion:**
 In this project, we conducted a study using Exploratory Data Analysis (EDA) to analyze the investment opportunity model across different sectors. Through meticulous analysis and the application of EDA techniques, we gained a comprehensive and in-depth understanding of the market structure and characteristics, thus identifying:
@@ -46,4 +45,8 @@ In this project, we conducted a study using Exploratory Data Analysis (EDA) to a
 
 #### Visualization:
 This project includes a report created with Power BI to provide interactive and insightful visualizations. It features various charts and graphs to display trends and patterns in the data, helping users easily understand and explore relationships between variables in the dataset.
-![Report](https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/52ab957a1a861f6af67a521d6b4368a0918094bd/IOA_EDA.png)
+<img src="https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/52ab957a1a861f6af67a521d6b4368a0918094bd/IOA_EDA.png" width="300">
+
+
+The idea for data processing and analysis is inspired by investment opportunity analysis based on available datasets from Kaggle. [Link1](https://www.kaggle.com/code/absheer/investment-data-cleaning-and-understanding), [Link2](https://www.kaggle.com/code/anuranchowdhury/spark-fund-investment-analysis-eda), [Link3](https://www.kaggle.com/code/kerneler/starter-investment-analysis-69cfb24d-6), [Link4](https://www.kaggle.com/code/ashydv/investment-opportunity-analysis-eda)
+
