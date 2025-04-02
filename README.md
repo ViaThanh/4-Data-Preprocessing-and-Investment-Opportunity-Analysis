@@ -37,6 +37,8 @@ In this project, we conducted a study using Exploratory Data Analysis (EDA) to a
 + Type of Investment: The most suitable investment type identified through the analysis is Venture. This investment type has shown significant potential for returns and is the preferred choice in most funding rounds.
 + Country Analysis: The United States emerges as the leading country for investment activities, with the highest number of funding rounds and total investment amounts. This indicates that the U.S. market is highly active and is an ideal place for venture capital investments.
 + Sector Analysis: The sectors with the most significant investment activities include 'Others,' 'Cleantech/Semiconductors,' and 'Social, Finance, Analytics, and Advertising.' These sectors are attracting considerable attention from investors, making them potential investment targets.
+<img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Number%20of%20Investment.png" width="400">
+<img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Total%20Invested%20Amount.png" width="400">
 
 **Based on the findings from the analysis, the following action recommendations are made:**
 + Focus on Venture Investments: Given the high performance and popularity of venture capital investments, this investment type should be prioritized to maximize returns.
@@ -45,7 +47,7 @@ In this project, we conducted a study using Exploratory Data Analysis (EDA) to a
 
 #### Visualization:
 This project includes a report created with Power BI to provide interactive and insightful visualizations. It features various charts and graphs to display trends and patterns in the data, helping users easily understand and explore relationships between variables in the dataset.
-<img src="https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/52ab957a1a861f6af67a521d6b4368a0918094bd/IOA_EDA.png" width="300">
+<img src="https://github.com/ViaThanh/Project_Investment_Opportunity_Analysis_Vietnamese/blob/52ab957a1a861f6af67a521d6b4368a0918094bd/IOA_EDA.png" width="400">
 
 
 The idea for data processing and analysis is inspired by investment opportunity analysis based on available datasets from Kaggle. [Link1](https://www.kaggle.com/code/absheer/investment-data-cleaning-and-understanding), [Link2](https://www.kaggle.com/code/anuranchowdhury/spark-fund-investment-analysis-eda), [Link3](https://www.kaggle.com/code/kerneler/starter-investment-analysis-69cfb24d-6), [Link4](https://www.kaggle.com/code/ashydv/investment-opportunity-analysis-eda)
