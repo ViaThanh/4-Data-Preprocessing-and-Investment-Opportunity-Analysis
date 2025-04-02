@@ -37,8 +37,10 @@ In this project, we conducted a study using Exploratory Data Analysis (EDA) to a
 + Type of Investment: The most suitable investment type identified through the analysis is Venture. This investment type has shown significant potential for returns and is the preferred choice in most funding rounds.
 + Country Analysis: The United States emerges as the leading country for investment activities, with the highest number of funding rounds and total investment amounts. This indicates that the U.S. market is highly active and is an ideal place for venture capital investments.
 + Sector Analysis: The sectors with the most significant investment activities include 'Others,' 'Cleantech/Semiconductors,' and 'Social, Finance, Analytics, and Advertising.' These sectors are attracting considerable attention from investors, making them potential investment targets.
-<img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Number%20of%20Investment.png" width="400">
-<img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Total%20Invested%20Amount.png" width="400">
+<p align="left">
+  <img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Number%20of%20Investment.png" width="400">
+  <img src="https://github.com/ViaThanh/4-Data-Preprocessing-and-Investment-Opportunity-Analysis/blob/main/Total%20Invested%20Amount.png" width="400">
+</p>
 
 **Based on the findings from the analysis, the following action recommendations are made:**
 + Focus on Venture Investments: Given the high performance and popularity of venture capital investments, this investment type should be prioritized to maximize returns.
