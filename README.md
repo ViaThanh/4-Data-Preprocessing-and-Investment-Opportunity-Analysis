@@ -1,9 +1,7 @@
 ## Project_Investment_Opportunity_Analysis_EDA_Vietnamese
-
-### Project based on the final course project in Data Analysis for Finance
-
 ### Building an Investment Opportunity Analysis Model (Investment Opportunity Analysis - EDA)
 
+Other projects : [Projects Introduction](https://github.com/ViaThanh/1-Projects-Introduction), [Sales Data Cleaning&Analysis SQL](https://github.com/ViaThanh/2-Sales-Data-Cleaning-and-Analysis-with-SQL), [Users Behaviours Analysis](https://github.com/ViaThanh/3-Netflix-Users-Behaviours-Analysis)
 #### Objective:
 - Analyze data to select the appropriate country, sector, and type of investment
 - Strategy: invest where others are also investing
